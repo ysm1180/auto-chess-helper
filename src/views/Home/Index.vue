@@ -5,7 +5,8 @@
       <div>
         <v-piece-synergy-list type="Species" :isHide="isHide" />
         <v-piece-synergy-list type="Class" :isHide="isHide" />
-        <input type="checkbox" id="hide" @change="(e) => hide(e)"><label for="hide">미보유 시너지 숨기기</label>
+        <input type="checkbox" id="hide" @change="(e) => hide(e)">
+        <label for="hide">미보유 시너지 숨기기</label>
       </div>
     </div>
     <v-warehouse />

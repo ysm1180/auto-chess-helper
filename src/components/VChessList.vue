@@ -1,31 +1,31 @@
 <template>
   <div class="flex">
     <div class="pieceList">
-      <div class="common">Common $1</div>
+      <div class="common">Common $1 (45)</div>
       <div v-for="piece in pieces1" :key="piece.name">
         <v-chess :name="piece.name" :className="piece.class" :species="piece.species"/>
       </div>
     </div>
     <div class="pieceList">
-      <div class="uncommon">Uncommon $2</div>
+      <div class="uncommon">Uncommon $2 (30)</div>
       <div v-for="piece in pieces2" :key="piece.name">
         <v-chess :name="piece.name" :className="piece.class" :species="piece.species"/>
       </div>
     </div>
     <div class="pieceList">
-      <div class="rare">Rare $3</div>
+      <div class="rare">Rare $3 (25)</div>
       <div v-for="piece in pieces3" :key="piece.name">
         <v-chess :name="piece.name" :className="piece.class" :species="piece.species"/>
       </div>
     </div>
     <div class="pieceList">
-      <div class="mythic">Mystic $4</div>
+      <div class="mythic">Mystic $4 (15)</div>
       <div v-for="piece in pieces4" :key="piece.name">
         <v-chess :name="piece.name" :className="piece.class" :species="piece.species"/>
       </div>
     </div>
     <div class="pieceList">
-      <div class="legendary">Legendary $5</div>
+      <div class="legendary">Legendary $5 (10)</div>
       <div v-for="piece in pieces5" :key="piece.name">
         <v-chess :name="piece.name" :className="piece.class" :species="piece.species"/>
       </div>
