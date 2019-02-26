@@ -1,0 +1,16 @@
+export default {
+  Orc: 'Orc',
+  Beast: 'Beast',
+  Ogre: 'Ogre',
+  Undead: 'Undead',
+  Goblin: 'Goblin',
+  Troll: 'Troll',
+  Elf: 'Elf',
+  Element: 'Element',
+  Human: 'Human',
+  Dragon: 'Dragon',
+  Demon: 'Demon',
+  Naga: 'Naga',
+  Dwarf: 'Dwarf',
+  Satyr: 'Satyr',
+};
